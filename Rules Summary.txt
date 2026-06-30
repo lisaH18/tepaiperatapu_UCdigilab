@@ -1,0 +1,24 @@
+Rules Summary
+
+1. Words in prep_words start as preposed periphery. Words in post_words start as postposed periphery. Words in neither list start as nuclei.
+
+2. Personal pronouns, location words, independent demostrative words are nucleus. 
+
+3. Licenser. A word immediately following a noun determiner becomes a nucleus. Noun licensers include articles, demonstratives, and single-word possessive determiners such as te, ngā, he, tētahi, tēnei, and tōku.
+A word immediately following aspect markers: e, ka, kia, or kua is usually verb, becomes a nucleus.
+
+4. "ia" is excluded from automatic noun licensing (determiner) because it is usually a personal pronoun.
+
+When one of these markers is followed by another determiner, the determiner remains peripheral and independently licenses the following noun.
+In a multiword possessive construction such as tō mātou whare, the third word becomes the nucleus: possessive marker, personal pronoun, noun nucleus
+
+After distributive ia, words with potentially multiple meanings such as rā become nuclei.
+
+A postposed word causes the preceding non-preposed word to become a nucleus.
+The rule moves left past preposed words to find the likely head.
+At that stage, this rule applied to every word in post_words, rather than only a restricted subset.
+
+Fixed expressions such as anō hoki, anō rā hoki, and he aha are forced to postposed periphery, or maybe use another category. Fixed-expression matching runs after the other rules, so it overrides earlier classifications.
+When a word is promoted to nucleus, its prep and post classifications are removed.
+
+Rules not yet implemented: rā before locative/directional words are preposed, but does it matter whether its preposed or postposed. 
